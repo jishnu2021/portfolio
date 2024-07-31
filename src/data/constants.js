@@ -1,15 +1,15 @@
 import img from "../images/Jishnuprofile.jpg"
 import img1 from "../images/Screenshot 2024-04-27 003404.png"
+import aeonix from "../images/aeonix.png"
 import car from "../images/car.jpeg"
-import heart from '../images/heart.jpeg'
+import cur from '../images/cur.jpeg'
 import diat from "../images/diabetis.jpeg"
 import face from "../images/face.jpeg"
-import sirus from '../images/sirus.jpeg'
+import heart from '../images/heart.jpeg'
 import img2 from "../images/img2.jpeg"
-import cur from '../images/cur.jpeg'
+import insitu from "../images/insitu.png"
+import sirus from '../images/sirus.jpeg'
 import web3 from "../images/web3.jpeg"
-
-
 
 export const Bio = {
   name: "Jishnu Ghosh",
@@ -182,9 +182,9 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: aeonix,
     role: "Full Stack Developer",
-    company: "Aeonix Research Center",
+    company: "Aeonix Research and Innovation LLP",
     date: "Aug 2023 - Oct 2023",
     desc: "Developed a responsive frontend using React.js, resulting in a 30% increase in user retention and a 35% decrease in bounce rates",
     skills: [
@@ -195,8 +195,25 @@ export const experiences = [
       "TypeScript",
       "MongodB",
       "Next Js",
-    ]
-  }
+    ],
+  },
+  {
+    id: 1,
+    img: {insitu},
+    role: "Web Developer Intern",
+    company: "Insitu Agritech Pvt.Ltd",
+    date: "Collaborate with the development team to design and implement web applications using Next.js and ReactJS. Utilize MongoDB and Firebase to efficiently store and manage data for the platform.",
+    skills: [
+      "Reactjs",
+      "Expressjs",
+      "Nodejs",
+      "JavaScript",
+      "TypeScript",
+      "MongodB",
+      "Next Js",
+      "Firebase",
+    ],
+  },
 ];
 
 export const education = [
